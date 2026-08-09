@@ -1,0 +1,12 @@
+node_modules/
+.env
+npm-debug.log
+
+# Logs y archivos temporales (pueden contener URLs de sesión de YouTube)
+bot.log
+*.log
+stream_url.txt
+*.pcm
+
+# Volcados que genera ytdl-core cuando YouTube cambia su reproductor
+*-player-script.js

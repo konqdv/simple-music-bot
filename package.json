@@ -1,0 +1,41 @@
+{
+  "name": "simple-music-bot",
+  "version": "1.0.0",
+  "description": "Bot de música para Discord con discord.js v14 y DisTube v5. Soporta YouTube, Spotify y SoundCloud, con panel de botones y sin necesidad de claves de API.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "music-bot",
+    "discord.js",
+    "distube",
+    "youtube",
+    "spotify"
+  ],
+  "author": "konqdv",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/konqdv/simple-music-bot.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@distube/spotify": "^2.0.2",
+    "@distube/youtube": "^1.0.4",
+    "@distube/yt-dlp": "^2.0.1",
+    "discord.js": "^14.15.3",
+    "distube": "^5.2.3",
+    "dotenv": "^16.4.5",
+    "opusscript": "^0.0.8"
+  },
+  "allowScripts": {
+    "@distube/yt-dlp@2.0.1": true
+  }
+}

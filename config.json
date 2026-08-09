@@ -1,0 +1,7 @@
+{
+  "DEFAULT_VOLUME": 100,
+  "MAX_PLAYLIST_SIZE": 100,
+  "STAY_TIME": 60,
+  "LEAVE_ON_EMPTY": true,
+  "LEAVE_ON_FINISH": true
+}
