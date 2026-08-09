@@ -1,0 +1,9 @@
+# Normaliza los finales de línea: evita que Windows y Linux/macOS generen
+# diferencias falsas en cada archivo al colaborar.
+* text=auto eol=lf
+
+# Archivos binarios: git no debe tocarlos.
+*.png binary
+*.jpg binary
+*.mp3 binary
+*.exe binary
